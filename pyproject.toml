@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "random-num-sys"
+version = "0.1.0"
+description = "A 6-digit number that works based on either the binary, octal or hexadecimal system"
+authors = ["Louis Agyapong <47106199+louis-agyapong@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "random_num_sys"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipython = "^8.11.0"
+mypy = "^1.0.1"
+black = "^23.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
